@@ -1,0 +1,271 @@
+body {
+    color: #1C5386;
+    margin:0
+}
+p{
+    margin-right: 5%;
+    font-size: 1em;
+}
+
+h3 {
+    text-align: center;
+}
+/* Haut de la page produit */
+
+.TopPage {
+    background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/velomobile_p3.webp");
+    height: 15em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+.TopPage h1{
+    text-align: center;
+    color: white;
+}
+
+.RedButton {
+    color: white;
+    background-color: #D8261A; 
+    border-radius: 12px;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    border: none;
+}
+
+/* Article sur le transport classique et ses inconvénients */
+
+.TransportClassique {
+    display: flex;
+    flex-direction: row;
+}
+
+.Inconvénients{
+    display: flex;
+    flex-direction: column;
+}
+
+.ImgTransport{
+    width: 40%;
+    height: auto;
+    padding-left: 5% ;
+    padding-right: 5%;
+    border-radius: 20%;
+}
+
+.Container{
+    padding: 0 1em 1em 1em;
+}
+
+.TextList {
+    color: #303030;
+}
+
+.ListeInconvénient{
+    margin: 0;
+}
+
+/* Presentation modèle */
+
+.ImgModele{
+    width: 80%;
+    height: auto;
+}
+
+.ColorBg{
+    background-color: #F3F6F9;
+}
+
+/* Liste carte*/
+.twocols {
+    flex-basis: 45%;
+  }
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.Mg {
+    margin: 0 5% 0 5%;
+}
+/************AFFICHAGE Telephone****************/
+@media (min-width: 480px) {
+
+
+}
+
+ 
+
+/************AFFICHAGE Tablette****************/
+
+@media (min-width: 767px) {    
+
+
+.TopPage {
+    background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/velomobile_p3.webp");
+    height: 25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.TopPage h1{
+    font-size: 3em;
+}
+
+.Inconvénients{
+    display: flex;
+    flex-direction: row;
+}
+.PresentationProduit{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 40% ;
+}
+.PresentationProduitCol{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.ImgModele{
+    contain: content;
+}
+
+.Modele {
+    display: flex;
+    flex-direction: row;
+}
+.Modele :first-child{
+    padding-top: 1em;
+}
+.ListeModele {
+    padding: 0;
+    margin: 0;
+}
+.DivCont{
+    display: flex;
+    width: 50%;
+}
+}
+
+
+
+/*********AFFICHAGE Tablette/ PC Portable*******/
+
+@media (min-width: 991px) {
+ 
+
+
+.TopPage {
+    background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/velomobile_p3.webp");
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgTransport{
+    height: 15em ;
+    width: 19em;
+    padding: 1em 1em 0 1em;
+    border-radius: 20%;
+
+}
+.ResponsiveCol{
+    display: flex;
+    flex-direction: column;
+}
+.ResponsiveRow {
+    display: flex;
+    flex-direction: row;
+}
+.ListTitle{
+    font-size: 1.5em;
+    }
+    
+.TextList{
+        font-size: 1.3em; 
+    }
+.Container h3 {
+        font-size: 2em;
+    }
+
+.ContModele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.PresentationProduitCol p {
+    font-size: 2em;
+
+}
+.ResponsiveCol p{
+    font-size: 1.5em;}
+
+    .Title{
+        font-size: 2em;
+    }
+}
+
+  
+
+ 
+
+/************AFFICHAGE PC Portable/PC petit***********/
+
+@media (min-width: 1200px) {
+    .ListTitle{
+        font-size: 2em;
+        }
+        
+        .TextList{
+            font-size: 1.5em; 
+        }
+        .Container h3 {
+            font-size: 3em;
+        }
+        .ColorBg h2{
+            font-size: 3em;
+        }
+        .ResponsiveCol h2{
+            font-size: 3em;
+        }
+        .ResponsiveCol p{
+            font-size: 1.5em;}
+}
+
+
+ 
+
+/************AFFICHAGE PC moyen***********/
+
+@media (min-width: 1400px) {
+
+}
+
+ 
+
+/************AFFICHAGE PC grand***********/
+
+@media (min-width: 1600px) {
+
+}

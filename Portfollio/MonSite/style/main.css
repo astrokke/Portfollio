@@ -1,0 +1,371 @@
+/* ---------------------------- Commentaire ---------------------------- */
+
+* {
+  font-family: "Satoshi", sans-serif;
+}
+
+html,
+body {
+  color: #1c5386;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+p {
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.blanc {
+  color: white;
+}
+
+.socials {
+  width: 35px;
+}
+
+hr {
+  border: 1px solid white;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 100px 5vw;
+}
+
+.small {
+  padding: 20px 5vw;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.borderbottomtop {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 50px 5vw;
+}
+.values {
+  color: white;
+  background: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/earth.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ecoresponsable {
+  color: white;
+  background: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("./../assets/imgs/power-plant.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5%;
+}
+
+.creationAtelier {
+  color: white;
+  background: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("./../assets/imgs/createur.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5%;
+}
+
+.acheminement {
+  color: white;
+  background: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("./../assets/imgs/train.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 5%;
+}
+
+.bgnewsletter {
+  color: white;
+  background-image: linear-gradient(
+      rgba(30, 83, 134, 0.75),
+      rgba(30, 83, 134, 0.75)
+    ),
+    url("../assets/imgs/nature-footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pastelblue {
+  background-color: #f3f6f9;
+}
+
+.bluefooter {
+  background-color: rgb(30, 83, 134);
+}
+
+
+/* ---------------------------- LES FLEX ---------------------------- */
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexnews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.onecol {
+  flex-basis: 100%;
+}
+
+.twocols {
+  flex-basis: 45%;
+}
+
+.threecols {
+  flex-basis: 25%;
+}
+
+.verticalcenter
+{
+  align-items: center;
+}
+
+/* ---------------------------- LES CADRES ---------------------------- */
+
+.cadre {
+  border: 1px white solid;
+  padding: 20px;
+  text-align: center;
+}
+
+.cadreblanc {
+  border: 1px white solid;
+  background-color: white;
+  opacity: 0.8;
+  padding: 20px;
+  text-align: center;
+  color: #1c5386;
+  margin: 10vh 0;
+}
+
+.team {
+  border: 1px white solid;
+  padding: 20px;
+  background: #cccccc;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto 0;
+}
+
+.team img {
+  max-width: 25%;
+  max-height: 33%;
+}
+
+.credits {
+  text-align: center;
+}
+
+#map {
+  height: 300px;
+}
+
+.redcheckmark
+{
+  list-style-image: url("./../assets/imgs/redcheck.png");
+  font-size: 25px ;
+}
+
+/* ---------------------------- Hauts de page produit ---------------------------- */
+
+.TopPage {
+  background-image: linear-gradient(
+      rgba(12, 91, 165, 0.3),
+      rgba(12, 91, 165, 0.507)
+    ),
+    url("../assets/imgs/velomobile_p3.webp") cover no-repeat center;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopPage_entreprise {
+  background-image: linear-gradient(
+      rgba(12, 91, 165, 0.3),
+      rgba(12, 91, 165, 0.507)
+    ),
+    url("../assets/imgs/velomobile_p3.webp");
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopPage_atelier {
+  background-image: linear-gradient(
+      rgba(12, 91, 165, 0.3),
+      rgba(12, 91, 165, 0.507)
+    ),
+    url("../assets/imgs/atelier2.webp");
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TopPage_home {
+  background-image: linear-gradient(
+      rgba(12, 91, 165, 0.3),
+      rgba(12, 91, 165, 0.507)
+    ),
+    url("../assets/imgs/route_foret.webp");
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.RedButton {
+  color: white;
+  background-color: #d8261a;
+  border-radius: 12px;
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: center;
+  border: none;
+  font-size: large;
+}
+
+/* ---------------------------- Formulaire ---------------------------- */
+
+input,
+select,
+textarea {
+  border: 2px solid white;
+  outline: none;
+  height: 70px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.2em;
+  color: white;
+}
+
+input::placeholder {
+  padding-left: 20px;
+  color: white;
+}
+
+textarea {
+  height: 200px;
+  padding-top: 20px;
+}
+
+textarea::placeholder {
+  padding-left: 20px;
+  color: white;
+}
+
+select {
+  padding-left: 20px;
+}
+
+button {
+  outline: none;
+  border: 2px solid #d8261a;
+  border-radius: 50px;
+  background-color: #d8261a;
+  font-size: 1.2em;
+  color: white;
+  padding: 25px;
+}
+
+/* ---------------------------- AFFICHAGE phone ---------------------------- */
+@media (min-width: 320px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .team img {
+    max-width: 150px;
+  }
+}
+
+/* ---------------------------- AFFICHAGE Tablette ---------------------------- */
+@media (min-width: 767px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+/* ---------------------------- AFFICHAGE Tablette/ PC Portable ----------------------------*/
+@media (min-width: 991px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+
+/* ---------------------------- AFFICHAGE PC Portable/PC petit ---------------------------- */
+@media (min-width: 1200px) {
+}
+
+/* ---------------------------- AFFICHAGE PC moyen ---------------------------- */
+@media (min-width: 1400px) {
+}
+
+/* ---------------------------- AFFICHAGE PC grand ---------------------------- */
+@media (min-width: 1600px) {
+}

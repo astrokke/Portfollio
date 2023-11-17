@@ -1,0 +1,504 @@
+/**
+ * Réinitialisation des styles pour tous les éléments
+ *
+ * @format
+ */
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Satoshi", Sans-Serif;
+}
+/* Styles pour le corps de la page */
+body {
+  font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: whitesmoke;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+.img1 {
+  background-image: url(/LELE/img/wepik\ -\ 202311130952084fXK.jpg);
+  max-width: 200%;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(/LELE/img/3\ ieme\ photo.jpg);
+  max-width: 200%;
+  background-size: cover;
+
+}
+.img2 {
+  background-image: url(/LELE/img/wepik\ -\ 20231113103144s8qq.jpg);
+  max-width: 200%;
+  background-size: cover;
+  overflow: hidden;
+}
+/* Styles pour la vidéo d'arrière-plan */
+.background-img {
+  width: 100%;
+}
+/* Styles pour la section "accueil" */
+#accueil {
+  font: var(--font_0);
+  color: #1b1b27;
+  letter-spacing: 0em;
+  position: absolute;
+  top: 19%;
+  left: 20%;
+}
+
+/* Styles pour la section "projets" */
+/* Styles pour la section "contact" */
+#contact {
+  position: fixed;
+  bottom: 70%; /* Place l'élément en bas de la fenêtre */
+  left: 0;
+  color: #fff;
+  line-height: 1.8em;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+/* Styles pour les sections de la page */
+section {
+  padding: 20px;
+}
+/* Styles pour le pied de page */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1b1b27;
+  color: #7670bb;
+  text-align: center;
+  padding: 10px;
+}
+/* Styles pour le logo "logo" dans la barre de navigation */
+#logo {
+  height: 5em;
+  border-radius: 52%;
+}
+/* Styles pour l'icône du menu "menu-icon" */
+#menu-icon {
+  position: absolute;
+  top: 29%;
+  left: 76%;
+}
+/* Styles pour la case à cocher "menu-toggle" du menu */
+#menu-toggle {
+  display: none;
+}
+/* Styles pour l'icône du menu burger */
+#menu-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 201%;
+  left: -183%;
+  background: rgba(255, 255, 255, 0);
+  width: 150px;
+  height: 18em;
+}
+/* Styles pour les listes non ordonnées "ul" du menu */
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+/* Styles pour les liens "a" du menu */
+.menu li a {
+  padding: 10px;
+}
+
+/* Styles pour afficher le menu lorsque la case est cochée */
+#menu-toggle:checked + .menu {
+  display: block;
+}
+/* Styles pour un élément "newsletter" */
+#grandul {
+  display: none;
+  width: 71vw;
+  float: right;
+}
+.grandli {
+  color: #7670bb;
+}
+.petitli {
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #1843d1;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.surlignement::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #8444b8;
+  transition: width 0.3s ease;
+}
+
+.surlignement:hover::before {
+  width: 150%;
+}
+/* Styles pour la barre de navigation "navbar" */
+.navbar {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  display: flex;
+  background-color: #0e0f18;
+  border-radius: 20px;
+  width: 93%;
+}
+#h1navbar {
+  font-size: 23px;
+  font-weight: 700;
+  background: transparent;
+  color: #8444b8;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  text-shadow: none;
+  margin-left: 2%;
+}
+
+/* Styles pour les titres de niveau 2 */
+h2 {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+/* Styles pour les éléments "strong" */
+/* Styles pour les paragraphes "para" */
+#para {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: normal;
+}
+
+
+.image {
+  display: none;
+}
+
+.glow_text {
+  background: transparent;
+  color: #f5f5f5;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  padding: 40px;
+  transition: all 0.6s linear; /* vendorless fallback */
+  -o-transition: all 0.6s linear; /* opera */
+  -ms-transition: all 0.6s linear; /* IE 10 */
+  -moz-transition: all 0.6s linear; /* Firefox */
+  -webkit-transition: all 0.6s linear; /*safari and chrome */
+}
+
+.glow_text:hover {
+  text-shadow: 0 0 5px rgb(142, 0, 255, 1), 0 0 10px rgb(142, 0, 255, 1), 0 0 20px rgb(142, 0, 255, 1), 0 0 30px rgb(142, 0, 255, 1);
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-around;
+  position: absolute;
+  top: 34%;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.bn59 {
+  text-decoration: #0077b7;
+  background-color: #ffffff;
+  border: 2px solid rgba(0, 106, 255, 0.6);
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+}
+.miniimage {
+  height: 81px;
+  position: absolute;
+  top: 49%;
+  width: 81px;
+  left: 66%;
+  display: none;
+}
+.minicontact {
+  height: 235px;
+  width: 347px;
+  position: absolute;
+  top: 36%;
+  left: 10%;
+}
+.carousel-container {
+  width: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  top: 22%;
+  position: absolute;
+  left: 26%;
+  max-height: 450px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 1s;
+}
+
+.carousel-item {
+  min-width: 700px;
+  margin: 0 10px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 50%;
+}
+
+.carousel-text {
+  text-align: center;
+  color: rgb(252, 252, 252);
+}
+
+.text-anime {
+  font: 20px "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  color: inherit;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  position: absolute;
+  top: 27%;
+  left: 40%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 45%;
+}
+
+.flip-card-back {
+  background-color: #1b1b27;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 45%;
+}
+
+/************AFFICHAGE Tablette****************/
+
+@media (min-width: 767px) {
+  #menu-icon > img {
+    display: none;
+  }
+  .menu {
+    text-align: center;
+  }
+  .navbar {
+    justify-content: left;
+  }
+}
+
+.logotitre {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+/*********AFFICHAGE Tablette/ PC Portable*******/
+
+@media (min-width: 800px) {
+  #grandul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 800px) {
+  .flex-container {
+    display: none !important;
+  }
+
+  .miniimage {
+    display: block !important;
+  }
+  
+}
+/************AFFICHAGE PC Portable/PC petit***********/
+@media (min-width: 999) {
+  .background-img {
+    display: block !important;
+  }
+  .image {
+    display: none;
+  }
+  
+}
+@media (max-width: 999px) {
+  .image {
+    display: block;
+      width: 100vw;   /* définit la largeur de l'image à 100% de la largeur de la fenêtre */
+      height: 100vh;  /* définit la hauteur de l'image à 100% de la hauteur de la fenêtre */
+      object-fit: cover; /* assure que l'image couvre entièrement l'espace tout en conservant ses proportions */ 
+  }
+ 
+  .background-img {
+    display: none;
+  }
+  #accueil {
+    text-shadow: 0 0 4px rgb(140, 140, 140);
+    letter-spacing: 0em;
+    position: absolute;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    top: 30%;
+    left: 0;
+    font: var(--font_0);
+    color: rgb(196, 209, 245);
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    position: absolute;
+    top: 37%;
+    left: 12%;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color: #1b1b27;
+    color: white;
+    transform: rotateY(180deg);
+  }
+}
+
+/************AFFICHAGE PC moyen***********/
+
+/************AFFICHAGE PC grand***********/
+
+@media (min-width: 1600px) {
+}
